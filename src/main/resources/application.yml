@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Todo-checker-api
+    
+server:
+  port: 8888
+
+fancode:
+  base-url: "https://jsonplaceholder.typicode.com"
+  endpoints:
+    todos: "/todos/"
+    users: "/users/"
